@@ -16,6 +16,18 @@
             "cStandard": "c17",
             "cppStandard": "c++17",
             "intelliSenseMode": "clang-x86"
+        },
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/${env.CEDEV}/include/**"
+            ],
+            "defines": [],
+            "compilerPath": "/${env.CEDEV}/bin/ez80-clang",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "clang-x86"
         }
     ],
     "version": 4
