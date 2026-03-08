@@ -17,6 +17,11 @@ typedef struct
     bool isPlayer;
 } Paddle;
 
+typedef enum {
+    UP,
+    DOWN,
+} Direction;
+
 void paddleDraw(Paddle* paddle);
 
 void paddleUpdate(Paddle* paddle);
