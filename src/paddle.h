@@ -20,6 +20,7 @@ typedef struct
 typedef enum {
     UP,
     DOWN,
+    NONE
 } Direction;
 
 void paddleDraw(Paddle* paddle);
