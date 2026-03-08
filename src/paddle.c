@@ -13,7 +13,7 @@ void paddleDraw(Paddle* paddle)
 void paddleUpdate(Paddle* paddle)
 {
 
-    paddleMove(paddle, 'n');
+    paddleMove(paddle, NONE);
 
 }
 
